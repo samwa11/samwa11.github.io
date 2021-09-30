@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>example2</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1> cv form</h1>
+<form method="GET"action="index.html"target=" _blank" autocomplete="off">
+    <fieldset>
+        <legend> persnal informaion</legend>
+    <label for ="fname">name</label></br>
+    <input type="text"id="fname"name="fn">
+    <br><br>
+    <!--radio-->
+<label for="male">Gander :</label>
+<input type="radio"id="male"name="Gander" value="m">
+<label for="male">male</label>
+<!--radio 2-->
+<input type="radio"id="femal"name="Gander" value="f">
+<label for="femal">femal</label>
+<br><br>
+<label for="ta">enter for number:</label><br>
+<input type="tel"id="te"name="Phone number" pattern="[0_9]{3}-[0_9]{2}-[0_9]{3}" placeholder=" (555-55-555">
+<br><br>
+<!--URl type-->
+<label for="linked">your linkden page:</label>
+<input type="url"id="linked"name="page">
+<!--Email-->
+<label for="email">email:</label>
+<input type="email"id="email"name="email">
+</fieldset>
+<br><br>
+<label for="ex">yaers of exper(3to10) :</label>
+<input type="number"id="ex"name="ex1" min="3" max="10">
+<input type="submit" value="send">
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
